@@ -52,7 +52,6 @@ THEN I am taken to the corresponding section of the README
 4. Open integrated terminal on index.js in order to run "npm i" on the command line to ensure that "node-modules" and "package.json" are operating on your local device.
 
 ## Built With
-- Saiyan Pride
 - JavaScript
 - Node.js
 - Inquirer.js
@@ -62,10 +61,10 @@ THEN I am taken to the corresponding section of the README
 
 ## Credits
 
-I watched several youtube videos to understand node.js better.
-I used https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide to gain better understanding on what goes into a professional README document.
-I also referenced the mini project to understand how to format the template all of the information that is inputted by a user.
-Source code came from https://git.bootcampcontent.com/Ohio-State-University/OSU-VIRT-FSF-PT-01-2024-U-LOLC/-/tree/main/09-NodeJS/02-Challenge?ref_type=heads
+- I watched several youtube videos to understand node.js better.
+- I used https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide to gain better - - - - understanding on what goes into a professional README document.
+- I also referenced the mini project to understand how to format the template all of the information that is inputted by a user.
+- Source code came from https://git.bootcampcontent.com/Ohio-State-University/OSU-VIRT-FSF-PT-01-2024-U-LOLC/-/tree/main/09-NodeJS/02-Challenge?ref_type=heads
 
 ## License
 MIT License
