@@ -52,7 +52,6 @@ THEN I am taken to the corresponding section of the README
 4. Open integrated terminal on index.js in order to run "npm i" on the command line to ensure that "node-modules" and "package.json" are operating on your local device.
 
 ## Built With
-- Saiyan Pride
 - JavaScript
 - Node.js
 - Inquirer.js
