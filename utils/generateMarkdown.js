@@ -4,17 +4,17 @@ function renderLicenseBadge(license) {
         return "";
     }
   
-    switch (license) {
-        case "MIT License":
-            return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-        case "Apache License 2.0":
-            return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-        case "GNU General Puplic License v3.0":
-            return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
-        case "Mozilla Public License 2.0":
-            return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
-        default:
-            return "";
+ switch (license) {
+    case "MIT License":
+        return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    case "Apache License 2.0":
+         return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    case "GNU General Puplic License v3.0":
+        return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+    case "Mozilla Public License 2.0":
+         return "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+     default:
+        return "";
     }
   }
   
@@ -48,20 +48,21 @@ function renderLicenseBadge(license) {
     
     This project is licensed under the ${license} license.
     
-    ${renderLicenseBadge(license)};
-    ${renderLicenseLink(license)}`
+${renderLicenseBadge(license)};
+
+${renderLicenseLink(license)}`
   }
   
   // Function to generate markdown for README
   function generateMarkdown(data) {
     return `# ${data.title}
     
-    ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
     
-    ## Description:
+## Description:
     ${data.description}
     
-    ## Table of Contents:
+## Table of Contents:
     - [Installation Instructions](#Installation-Instructions)
     - [Usage Information](#Usage-Information)
     - [Contribution Guidelines](#Contribution-Guidelines)
@@ -69,21 +70,21 @@ function renderLicenseBadge(license) {
     - [License](#License)
     - [Questions](#Questions)
   
-    ## Installation Instructions:
+## Installation Instructions:
     ${data.installation}
     
-    ## Usage Instructions:
+## Usage Instructions:
     ${data.usage}
     
-    ## Contribution Guidelines:
+## Contribution Guidelines:
     ${data.contribution}
     
-    ## Test Instructions:
+## Test Instructions:
     ${data.test}
     
-    ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
     
-    ## Questions:
+## Questions:
     For additonal questions or open feedback, feel free to contact me at my email:${data.email}. 
     You can also find me on Github at [${data.github}](https://github.com/${data.github}).
     
