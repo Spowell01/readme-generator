@@ -13,7 +13,7 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Provide a short description, by explaining the W5H of your project:",
+        message: "Provide a short description of your project:",
     },
     {
         type: "input",
@@ -23,7 +23,7 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "Provide instructions and examples for usage. Include screenshots as needed. To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax... ![](./assets/image/screenshot.pgn)",
+        message: "Provide instructions and examples for usage. Add screenshots as needed.",
     },
     {
         type: "input",
